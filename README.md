@@ -1,4 +1,4 @@
-a course enrollment system for a computer science program
+a course enrollment system of a computer science program
 
 <strong>What I learned:</strong></br>
 - documentation of user goals and requirements
