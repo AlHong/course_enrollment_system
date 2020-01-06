@@ -34,6 +34,7 @@ Partial Class PlanMinorForm
         Me.CoursesLabel3 = New System.Windows.Forms.Label()
         Me.ViewMinorButton = New System.Windows.Forms.Button()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.MinorCourses1 = New Project.MinorCoursesUserControl()
         Me.MinorCourses3 = New Project.MinorCoursesUserControl()
         Me.MinorCourses2 = New Project.MinorCoursesUserControl()
@@ -44,10 +45,9 @@ Partial Class PlanMinorForm
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.Window
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(89, 401)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(67, 326)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(73, 25)
+        Me.Label2.Size = New System.Drawing.Size(58, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Minor:"
         '
@@ -56,19 +56,17 @@ Partial Class PlanMinorForm
         Me.MinorComboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MinorComboBox.FormattingEnabled = True
         Me.MinorComboBox.Items.AddRange(New Object() {"Mathematics"})
-        Me.MinorComboBox.Location = New System.Drawing.Point(175, 398)
-        Me.MinorComboBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MinorComboBox.Location = New System.Drawing.Point(131, 323)
         Me.MinorComboBox.Name = "MinorComboBox"
-        Me.MinorComboBox.Size = New System.Drawing.Size(160, 33)
+        Me.MinorComboBox.Size = New System.Drawing.Size(121, 28)
         Me.MinorComboBox.TabIndex = 2
         '
         'ChooseMinorButton
         '
         Me.ChooseMinorButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ChooseMinorButton.Location = New System.Drawing.Point(344, 431)
-        Me.ChooseMinorButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ChooseMinorButton.Location = New System.Drawing.Point(258, 350)
         Me.ChooseMinorButton.Name = "ChooseMinorButton"
-        Me.ChooseMinorButton.Size = New System.Drawing.Size(177, 37)
+        Me.ChooseMinorButton.Size = New System.Drawing.Size(133, 30)
         Me.ChooseMinorButton.TabIndex = 3
         Me.ChooseMinorButton.Text = "Choose"
         Me.ChooseMinorButton.UseVisualStyleBackColor = True
@@ -78,20 +76,18 @@ Partial Class PlanMinorForm
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.Window
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(89, 475)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(67, 386)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(187, 25)
+        Me.Label3.Size = New System.Drawing.Size(155, 20)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Required courses:"
         '
         'LogoutButton
         '
         Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LogoutButton.Location = New System.Drawing.Point(863, 263)
-        Me.LogoutButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LogoutButton.Location = New System.Drawing.Point(647, 214)
         Me.LogoutButton.Name = "LogoutButton"
-        Me.LogoutButton.Size = New System.Drawing.Size(100, 42)
+        Me.LogoutButton.Size = New System.Drawing.Size(75, 34)
         Me.LogoutButton.TabIndex = 7
         Me.LogoutButton.Text = "Logout"
         Me.LogoutButton.UseVisualStyleBackColor = True
@@ -101,10 +97,9 @@ Partial Class PlanMinorForm
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.Window
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(89, 348)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(67, 283)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(123, 25)
+        Me.Label4.Size = New System.Drawing.Size(101, 20)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Your minor:"
         '
@@ -113,11 +108,10 @@ Partial Class PlanMinorForm
         Me.MinorLabel.AutoSize = True
         Me.MinorLabel.BackColor = System.Drawing.SystemColors.Window
         Me.MinorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MinorLabel.Location = New System.Drawing.Point(232, 348)
-        Me.MinorLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.MinorLabel.MaximumSize = New System.Drawing.Size(133, 0)
+        Me.MinorLabel.Location = New System.Drawing.Point(174, 283)
+        Me.MinorLabel.MaximumSize = New System.Drawing.Size(100, 0)
         Me.MinorLabel.Name = "MinorLabel"
-        Me.MinorLabel.Size = New System.Drawing.Size(46, 25)
+        Me.MinorLabel.Size = New System.Drawing.Size(35, 20)
         Me.MinorLabel.TabIndex = 9
         Me.MinorLabel.Text = "N/A"
         '
@@ -126,10 +120,9 @@ Partial Class PlanMinorForm
         Me.CoursesLabel1.AutoSize = True
         Me.CoursesLabel1.BackColor = System.Drawing.SystemColors.Window
         Me.CoursesLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CoursesLabel1.Location = New System.Drawing.Point(91, 511)
-        Me.CoursesLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.CoursesLabel1.Location = New System.Drawing.Point(68, 415)
         Me.CoursesLabel1.Name = "CoursesLabel1"
-        Me.CoursesLabel1.Size = New System.Drawing.Size(162, 25)
+        Me.CoursesLabel1.Size = New System.Drawing.Size(132, 20)
         Me.CoursesLabel1.TabIndex = 10
         Me.CoursesLabel1.Text = "1 of the following:"
         '
@@ -138,10 +131,9 @@ Partial Class PlanMinorForm
         Me.CoursesLabel2.AutoSize = True
         Me.CoursesLabel2.BackColor = System.Drawing.SystemColors.Window
         Me.CoursesLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CoursesLabel2.Location = New System.Drawing.Point(91, 671)
-        Me.CoursesLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.CoursesLabel2.Location = New System.Drawing.Point(68, 545)
         Me.CoursesLabel2.Name = "CoursesLabel2"
-        Me.CoursesLabel2.Size = New System.Drawing.Size(162, 25)
+        Me.CoursesLabel2.Size = New System.Drawing.Size(132, 20)
         Me.CoursesLabel2.TabIndex = 11
         Me.CoursesLabel2.Text = "1 of the following:"
         '
@@ -150,20 +142,18 @@ Partial Class PlanMinorForm
         Me.CoursesLabel3.AutoSize = True
         Me.CoursesLabel3.BackColor = System.Drawing.SystemColors.Window
         Me.CoursesLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CoursesLabel3.Location = New System.Drawing.Point(991, 511)
-        Me.CoursesLabel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.CoursesLabel3.Location = New System.Drawing.Point(743, 415)
         Me.CoursesLabel3.Name = "CoursesLabel3"
-        Me.CoursesLabel3.Size = New System.Drawing.Size(162, 25)
+        Me.CoursesLabel3.Size = New System.Drawing.Size(132, 20)
         Me.CoursesLabel3.TabIndex = 12
         Me.CoursesLabel3.Text = "4 of the following:"
         '
         'ViewMinorButton
         '
         Me.ViewMinorButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ViewMinorButton.Location = New System.Drawing.Point(344, 390)
-        Me.ViewMinorButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ViewMinorButton.Location = New System.Drawing.Point(258, 317)
         Me.ViewMinorButton.Name = "ViewMinorButton"
-        Me.ViewMinorButton.Size = New System.Drawing.Size(177, 36)
+        Me.ViewMinorButton.Size = New System.Drawing.Size(133, 29)
         Me.ViewMinorButton.TabIndex = 17
         Me.ViewMinorButton.Text = "View"
         Me.ViewMinorButton.UseVisualStyleBackColor = True
@@ -174,44 +164,57 @@ Partial Class PlanMinorForm
         Me.LinkLabel1.BackColor = System.Drawing.Color.White
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.MidnightBlue
-        Me.LinkLabel1.Location = New System.Drawing.Point(90, 286)
+        Me.LinkLabel1.Location = New System.Drawing.Point(68, 232)
+        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(120, 32)
+        Me.LinkLabel1.Size = New System.Drawing.Size(96, 26)
         Me.LinkLabel1.TabIndex = 22
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "RAMSS"
         '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(894, 707)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 26)
+        Me.Button2.TabIndex = 52
+        Me.Button2.Text = "Go Back"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'MinorCourses1
         '
-        Me.MinorCourses1.Location = New System.Drawing.Point(96, 539)
-        Me.MinorCourses1.Margin = New System.Windows.Forms.Padding(5)
+        Me.MinorCourses1.Location = New System.Drawing.Point(72, 438)
+        Me.MinorCourses1.Margin = New System.Windows.Forms.Padding(4)
         Me.MinorCourses1.Name = "MinorCourses1"
-        Me.MinorCourses1.Size = New System.Drawing.Size(897, 128)
+        Me.MinorCourses1.Size = New System.Drawing.Size(673, 104)
         Me.MinorCourses1.TabIndex = 16
         '
         'MinorCourses3
         '
-        Me.MinorCourses3.Location = New System.Drawing.Point(997, 539)
-        Me.MinorCourses3.Margin = New System.Windows.Forms.Padding(5)
+        Me.MinorCourses3.Location = New System.Drawing.Point(748, 438)
+        Me.MinorCourses3.Margin = New System.Windows.Forms.Padding(4)
         Me.MinorCourses3.Name = "MinorCourses3"
-        Me.MinorCourses3.Size = New System.Drawing.Size(897, 156)
+        Me.MinorCourses3.Size = New System.Drawing.Size(673, 127)
         Me.MinorCourses3.TabIndex = 15
         '
         'MinorCourses2
         '
-        Me.MinorCourses2.Location = New System.Drawing.Point(96, 699)
-        Me.MinorCourses2.Margin = New System.Windows.Forms.Padding(5)
+        Me.MinorCourses2.Location = New System.Drawing.Point(72, 568)
+        Me.MinorCourses2.Margin = New System.Windows.Forms.Padding(4)
         Me.MinorCourses2.Name = "MinorCourses2"
-        Me.MinorCourses2.Size = New System.Drawing.Size(897, 156)
+        Me.MinorCourses2.Size = New System.Drawing.Size(673, 127)
         Me.MinorCourses2.TabIndex = 14
         '
         'PlanMinorForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.A3orLedgersizeBrowserWindow
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1685, 1045)
+        Me.ClientSize = New System.Drawing.Size(1264, 849)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.ViewMinorButton)
         Me.Controls.Add(Me.MinorCourses1)
@@ -227,8 +230,8 @@ Partial Class PlanMinorForm
         Me.Controls.Add(Me.ChooseMinorButton)
         Me.Controls.Add(Me.MinorComboBox)
         Me.Controls.Add(Me.Label2)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "PlanMinorForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "RAMSS - Plan Minor"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -250,4 +253,5 @@ Partial Class PlanMinorForm
     Friend WithEvents MinorCourses1 As MinorCoursesUserControl
     Friend WithEvents ViewMinorButton As Button
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

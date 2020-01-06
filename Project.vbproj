@@ -102,6 +102,18 @@
     <Compile Include="contactinfo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CourseGrades.Designer.vb">
+      <DependentUpon>CourseGrades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourseGrades.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CourseGradesForm.Designer.vb">
+      <DependentUpon>CourseGradesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourseGradesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CoursesUserControl.Designer.vb">
       <DependentUpon>CoursesUserControl.vb</DependentUpon>
     </Compile>
@@ -112,6 +124,30 @@
       <DependentUpon>drop.vb</DependentUpon>
     </Compile>
     <Compile Include="drop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinancialForm.Designer.vb">
+      <DependentUpon>FinancialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradesForm.Designer.vb">
+      <DependentUpon>GradesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GradesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradForm.Designer.vb">
+      <DependentUpon>GradForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GradForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraduationRequirementsForm.Designer.vb">
+      <DependentUpon>GraduationRequirementsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GraduationRequirementsForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HomeForm.Designer.vb">
@@ -175,6 +211,7 @@
   <ItemGroup>
     <EmbeddedResource Include="add.resx">
       <DependentUpon>add.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="choosesearch.resx">
       <DependentUpon>choosesearch.vb</DependentUpon>
@@ -188,8 +225,20 @@
     <EmbeddedResource Include="contactinfo.resx">
       <DependentUpon>contactinfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CourseGrades.resx">
+      <DependentUpon>CourseGrades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseGradesForm.resx">
+      <DependentUpon>CourseGradesForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="drop.resx">
       <DependentUpon>drop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinancialForm.resx">
+      <DependentUpon>FinancialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradesForm.resx">
+      <DependentUpon>GradesForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.vb</DependentUpon>

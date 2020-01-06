@@ -24,8 +24,12 @@
         ComboBox1.Items.Add("Swap Course")
         ComboBox1.Items.Add("Drop Course")
         ComboBox1.Items.Add("Manage Personal Information")
+        ComboBox1.Items.Add("View Grades, GPA, and Status")
         ComboBox1.Items.Add("View Major")
         ComboBox1.Items.Add("Plan Minor")
+        ComboBox1.Items.Add("Graduation Status")
+        ComboBox1.Items.Add("Financial Status")
+
 
         studentName = LoginForm.loggedInName
 
@@ -128,7 +132,6 @@
             Me.Hide()
             chooseterm.Show()
 
-
         ElseIf ComboBox1.SelectedItem = "Add Course" Then
 
             addcheck = True
@@ -181,13 +184,29 @@
             planMinorPage.Show()
             Me.Hide()
 
+        ElseIf ComboBox1.SelectedItem = "View Grades, GPA, and Status" Then
+            addcheck = False
+            dropcheck = True
+            swapcheck = False
+
+            Dim gradesForm As New GradesForm()
+            Me.Hide()
+            gradesForm.Show()
+
+        ElseIf ComboBox1.SelectedItem = "Graduation Status" Then
+            Hide()
+            Dim gradForm As GradForm = New GradForm(studentName, studentNumber, Me)
+            gradForm.Show()
+        ElseIf ComboBox1.SelectedItem = "Financial Status" Then
+            Hide()
+            Dim financialForm As FinancialForm = New FinancialForm(studentName, Me)
+            financialForm.Show()
         Else
             MsgBox("Please choose an option that is listed.")
             ComboBox1.SelectedItem = Nothing
             ComboBox1.Text = ""
 
         End If
-
 
     End Sub
 

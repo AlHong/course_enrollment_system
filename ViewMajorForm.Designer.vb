@@ -32,11 +32,12 @@ Partial Class ViewMajorForm
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.MinorLabel = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Year1FallUserControl = New Project.CoursesUserControl()
         Me.Year2WinterUserControl = New Project.CoursesUserControl()
         Me.Year2FallUserControl = New Project.CoursesUserControl()
         Me.Year1WinterUserControl = New Project.CoursesUserControl()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'Label1
@@ -44,10 +45,9 @@ Partial Class ViewMajorForm
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.Window
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(22, 308)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(16, 250)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(149, 25)
+        Me.Label1.Size = New System.Drawing.Size(123, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Your program:"
         '
@@ -56,10 +56,9 @@ Partial Class ViewMajorForm
         Me.ProgramLabel.AutoSize = True
         Me.ProgramLabel.BackColor = System.Drawing.SystemColors.Window
         Me.ProgramLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ProgramLabel.Location = New System.Drawing.Point(182, 308)
-        Me.ProgramLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.ProgramLabel.Location = New System.Drawing.Point(136, 250)
         Me.ProgramLabel.Name = "ProgramLabel"
-        Me.ProgramLabel.Size = New System.Drawing.Size(174, 25)
+        Me.ProgramLabel.Size = New System.Drawing.Size(140, 20)
         Me.ProgramLabel.TabIndex = 1
         Me.ProgramLabel.Text = "Computer Science"
         '
@@ -68,20 +67,18 @@ Partial Class ViewMajorForm
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.Window
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(26, 405)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(20, 329)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(146, 25)
+        Me.Label2.Size = New System.Drawing.Size(120, 20)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Your courses:"
         '
         'LogoutButton
         '
         Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LogoutButton.Location = New System.Drawing.Point(1025, 267)
-        Me.LogoutButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.LogoutButton.Location = New System.Drawing.Point(769, 217)
         Me.LogoutButton.Name = "LogoutButton"
-        Me.LogoutButton.Size = New System.Drawing.Size(111, 43)
+        Me.LogoutButton.Size = New System.Drawing.Size(83, 35)
         Me.LogoutButton.TabIndex = 6
         Me.LogoutButton.Text = "Logout"
         Me.LogoutButton.UseVisualStyleBackColor = True
@@ -91,10 +88,9 @@ Partial Class ViewMajorForm
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.Window
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(26, 445)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(20, 362)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(117, 25)
+        Me.Label4.Size = New System.Drawing.Size(94, 20)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Year 1 - Fall"
         '
@@ -103,10 +99,9 @@ Partial Class ViewMajorForm
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.Window
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(24, 647)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(18, 526)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(143, 25)
+        Me.Label5.Size = New System.Drawing.Size(115, 20)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Year 1 - Winter"
         '
@@ -115,10 +110,9 @@ Partial Class ViewMajorForm
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.Window
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(972, 445)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(729, 362)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(117, 25)
+        Me.Label6.Size = New System.Drawing.Size(94, 20)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Year 2 - Fall"
         '
@@ -127,10 +121,9 @@ Partial Class ViewMajorForm
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.SystemColors.Window
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(976, 640)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(732, 520)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(143, 25)
+        Me.Label7.Size = New System.Drawing.Size(115, 20)
         Me.Label7.TabIndex = 14
         Me.Label7.Text = "Year 2 - Winter"
         '
@@ -139,10 +132,9 @@ Partial Class ViewMajorForm
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.SystemColors.Window
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(22, 333)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(16, 271)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(123, 25)
+        Me.Label8.Size = New System.Drawing.Size(101, 20)
         Me.Label8.TabIndex = 17
         Me.Label8.Text = "Your minor:"
         '
@@ -151,44 +143,11 @@ Partial Class ViewMajorForm
         Me.MinorLabel.AutoSize = True
         Me.MinorLabel.BackColor = System.Drawing.SystemColors.Window
         Me.MinorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MinorLabel.Location = New System.Drawing.Point(182, 333)
-        Me.MinorLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MinorLabel.Location = New System.Drawing.Point(136, 271)
         Me.MinorLabel.Name = "MinorLabel"
-        Me.MinorLabel.Size = New System.Drawing.Size(46, 25)
+        Me.MinorLabel.Size = New System.Drawing.Size(35, 20)
         Me.MinorLabel.TabIndex = 18
         Me.MinorLabel.Text = "N/A"
-        '
-        'Year1FallUserControl
-        '
-        Me.Year1FallUserControl.Location = New System.Drawing.Point(29, 473)
-        Me.Year1FallUserControl.Margin = New System.Windows.Forms.Padding(5)
-        Me.Year1FallUserControl.Name = "Year1FallUserControl"
-        Me.Year1FallUserControl.Size = New System.Drawing.Size(913, 149)
-        Me.Year1FallUserControl.TabIndex = 16
-        '
-        'Year2WinterUserControl
-        '
-        Me.Year2WinterUserControl.Location = New System.Drawing.Point(981, 675)
-        Me.Year2WinterUserControl.Margin = New System.Windows.Forms.Padding(5)
-        Me.Year2WinterUserControl.Name = "Year2WinterUserControl"
-        Me.Year2WinterUserControl.Size = New System.Drawing.Size(913, 149)
-        Me.Year2WinterUserControl.TabIndex = 15
-        '
-        'Year2FallUserControl
-        '
-        Me.Year2FallUserControl.Location = New System.Drawing.Point(980, 473)
-        Me.Year2FallUserControl.Margin = New System.Windows.Forms.Padding(5)
-        Me.Year2FallUserControl.Name = "Year2FallUserControl"
-        Me.Year2FallUserControl.Size = New System.Drawing.Size(917, 149)
-        Me.Year2FallUserControl.TabIndex = 13
-        '
-        'Year1WinterUserControl
-        '
-        Me.Year1WinterUserControl.Location = New System.Drawing.Point(29, 675)
-        Me.Year1WinterUserControl.Margin = New System.Windows.Forms.Padding(5)
-        Me.Year1WinterUserControl.Name = "Year1WinterUserControl"
-        Me.Year1WinterUserControl.Size = New System.Drawing.Size(913, 149)
-        Me.Year1WinterUserControl.TabIndex = 11
         '
         'LinkLabel1
         '
@@ -196,20 +155,65 @@ Partial Class ViewMajorForm
         Me.LinkLabel1.BackColor = System.Drawing.Color.White
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.MidnightBlue
-        Me.LinkLabel1.Location = New System.Drawing.Point(25, 251)
+        Me.LinkLabel1.Location = New System.Drawing.Point(19, 204)
+        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(120, 32)
+        Me.LinkLabel1.Size = New System.Drawing.Size(96, 26)
         Me.LinkLabel1.TabIndex = 22
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "RAMSS"
         '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(925, 711)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 26)
+        Me.Button2.TabIndex = 23
+        Me.Button2.Text = "Go Back"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Year1FallUserControl
+        '
+        Me.Year1FallUserControl.Location = New System.Drawing.Point(22, 384)
+        Me.Year1FallUserControl.Margin = New System.Windows.Forms.Padding(4)
+        Me.Year1FallUserControl.Name = "Year1FallUserControl"
+        Me.Year1FallUserControl.Size = New System.Drawing.Size(685, 121)
+        Me.Year1FallUserControl.TabIndex = 16
+        '
+        'Year2WinterUserControl
+        '
+        Me.Year2WinterUserControl.Location = New System.Drawing.Point(736, 548)
+        Me.Year2WinterUserControl.Margin = New System.Windows.Forms.Padding(4)
+        Me.Year2WinterUserControl.Name = "Year2WinterUserControl"
+        Me.Year2WinterUserControl.Size = New System.Drawing.Size(685, 121)
+        Me.Year2WinterUserControl.TabIndex = 15
+        '
+        'Year2FallUserControl
+        '
+        Me.Year2FallUserControl.Location = New System.Drawing.Point(735, 384)
+        Me.Year2FallUserControl.Margin = New System.Windows.Forms.Padding(4)
+        Me.Year2FallUserControl.Name = "Year2FallUserControl"
+        Me.Year2FallUserControl.Size = New System.Drawing.Size(688, 121)
+        Me.Year2FallUserControl.TabIndex = 13
+        '
+        'Year1WinterUserControl
+        '
+        Me.Year1WinterUserControl.Location = New System.Drawing.Point(22, 548)
+        Me.Year1WinterUserControl.Margin = New System.Windows.Forms.Padding(4)
+        Me.Year1WinterUserControl.Name = "Year1WinterUserControl"
+        Me.Year1WinterUserControl.Size = New System.Drawing.Size(685, 121)
+        Me.Year1WinterUserControl.TabIndex = 11
+        '
         'ViewMajorForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.A3orLedgersizeBrowserWindow
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1685, 1045)
+        Me.ClientSize = New System.Drawing.Size(1264, 849)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.MinorLabel)
         Me.Controls.Add(Me.Label8)
@@ -225,8 +229,8 @@ Partial Class ViewMajorForm
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ProgramLabel)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ViewMajorForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "RAMSS - View Major academic program"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -248,4 +252,5 @@ Partial Class ViewMajorForm
     Friend WithEvents Label8 As Label
     Friend WithEvents MinorLabel As Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

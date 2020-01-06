@@ -47,7 +47,7 @@ Partial Class HomeForm
         Me.Label2.Location = New System.Drawing.Point(124, 269)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(156, 25)
+        Me.Label2.Size = New System.Drawing.Size(129, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Student Name:"
         '
@@ -59,7 +59,7 @@ Partial Class HomeForm
         Me.Label3.Location = New System.Drawing.Point(124, 313)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(175, 25)
+        Me.Label3.Size = New System.Drawing.Size(145, 20)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Student Number:"
         '
@@ -71,7 +71,7 @@ Partial Class HomeForm
         Me.Label4.Location = New System.Drawing.Point(122, 412)
         Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(255, 25)
+        Me.Label4.Size = New System.Drawing.Size(210, 20)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Your courses - Fall 2017:"
         '
@@ -83,7 +83,7 @@ Partial Class HomeForm
         Me.Label5.Location = New System.Drawing.Point(111, 641)
         Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(283, 25)
+        Me.Label5.Size = New System.Drawing.Size(233, 20)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Your courses - Winter 2018:"
         '
@@ -95,7 +95,7 @@ Partial Class HomeForm
         Me.StudentNameLabel.Location = New System.Drawing.Point(327, 269)
         Me.StudentNameLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.StudentNameLabel.Name = "StudentNameLabel"
-        Me.StudentNameLabel.Size = New System.Drawing.Size(20, 25)
+        Me.StudentNameLabel.Size = New System.Drawing.Size(15, 20)
         Me.StudentNameLabel.TabIndex = 8
         Me.StudentNameLabel.Text = "-"
         '
@@ -107,7 +107,7 @@ Partial Class HomeForm
         Me.StudentNumberLabel.Location = New System.Drawing.Point(327, 313)
         Me.StudentNumberLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.StudentNumberLabel.Name = "StudentNumberLabel"
-        Me.StudentNumberLabel.Size = New System.Drawing.Size(20, 25)
+        Me.StudentNumberLabel.Size = New System.Drawing.Size(15, 20)
         Me.StudentNumberLabel.TabIndex = 9
         Me.StudentNumberLabel.Text = "-"
         '
@@ -126,24 +126,22 @@ Partial Class HomeForm
         '
         Me.FallListBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FallListBox.FormattingEnabled = True
-        Me.FallListBox.ItemHeight = 16
         Me.FallListBox.Location = New System.Drawing.Point(116, 412)
         Me.FallListBox.Margin = New System.Windows.Forms.Padding(6)
         Me.FallListBox.MultiColumn = True
         Me.FallListBox.Name = "FallListBox"
-        Me.FallListBox.Size = New System.Drawing.Size(864, 196)
+        Me.FallListBox.Size = New System.Drawing.Size(864, 186)
         Me.FallListBox.TabIndex = 11
         '
         'WinterListBox
         '
         Me.WinterListBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WinterListBox.FormattingEnabled = True
-        Me.WinterListBox.ItemHeight = 16
         Me.WinterListBox.Location = New System.Drawing.Point(116, 672)
         Me.WinterListBox.Margin = New System.Windows.Forms.Padding(6)
         Me.WinterListBox.MultiColumn = True
         Me.WinterListBox.Name = "WinterListBox"
-        Me.WinterListBox.Size = New System.Drawing.Size(864, 196)
+        Me.WinterListBox.Size = New System.Drawing.Size(864, 186)
         Me.WinterListBox.TabIndex = 12
         '
         'Label6
@@ -154,7 +152,7 @@ Partial Class HomeForm
         Me.Label6.Location = New System.Drawing.Point(111, 368)
         Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(255, 25)
+        Me.Label6.Size = New System.Drawing.Size(210, 20)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Your courses - Fall 2017:"
         '
@@ -165,7 +163,7 @@ Partial Class HomeForm
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(122, 425)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(57, 17)
+        Me.Label7.Size = New System.Drawing.Size(45, 13)
         Me.Label7.TabIndex = 14
         Me.Label7.Text = "Label7"
         '
@@ -176,16 +174,16 @@ Partial Class HomeForm
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(124, 682)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(57, 17)
+        Me.Label8.Size = New System.Drawing.Size(45, 13)
         Me.Label8.TabIndex = 15
         Me.Label8.Text = "Label8"
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(707, 305)
+        Me.ComboBox1.Location = New System.Drawing.Point(670, 305)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(259, 33)
+        Me.ComboBox1.Size = New System.Drawing.Size(296, 28)
         Me.ComboBox1.TabIndex = 16
         '
         'Button1
@@ -205,14 +203,14 @@ Partial Class HomeForm
         Me.LinkLabel1.LinkColor = System.Drawing.Color.MidnightBlue
         Me.LinkLabel1.Location = New System.Drawing.Point(123, 219)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(225, 32)
+        Me.LinkLabel1.Size = New System.Drawing.Size(181, 26)
         Me.LinkLabel1.TabIndex = 18
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "RAMSS - Home"
         '
         'HomeForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.A3orLedgersizeBrowserWindow
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch

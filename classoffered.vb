@@ -1,7 +1,8 @@
 ﻿Public Class classoffered
 
     Public Shared co As Boolean
-    Public Shared minor As Boolean = False
+    Public Shared fminor As Boolean = False
+    Public Shared sminor As Boolean = False
 
     Private Sub classoffered_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -27,8 +28,20 @@
         End If
 
         '  minor = True
-        If (minor) Then
+        If (fminor And Chooseterm.fys) Then
 
+            Label4.Show()
+            ComboBox3.Show()
+            Label4.Text = "Math Minor Requirements (need to take six to achieve minor)"
+
+            If (Chooseterm.term = "fall") Then
+                ComboBox3.Items.Add("MTH430 - Dynamic Systems: Differential Equations")
+            ElseIf (Chooseterm.term = "winter") Then
+                ComboBox3.Items.Add("MTH430 - Dynamic Systems: Differential Equations")
+                ComboBox3.Items.Add("MTH540 - Geometry")
+            End If
+
+        ElseIf (sminor And Chooseterm.sys) Then
             Label4.Show()
             ComboBox3.Show()
             Label4.Text = "Math Minor Requirements (need to take six to achieve minor)"
@@ -93,12 +106,12 @@
                 Label2.Text = "Second Year Requirements: "
 
 
-                Label4.Show()
-                ComboBox3.Show()
+            Label6.Show()
+            ComboBox4.Show()
 
 
 
-                Label4.Text = "Open Electives (required to take two in your major)"
+            Label6.Text = "Open Electives (required to take two in your major)"
 
                 If (Chooseterm.term = "fall") Then
 
@@ -108,8 +121,8 @@
 
                     ComboBox1.Items.Add("CPS420 - Discrete Structures")
 
-                    ComboBox3.Items.Add("CRM200 - Criminal Law")
-                    ComboBox3.Items.Add("DST500 - A History of Madness")
+                ComboBox4.Items.Add("CRM200 - Criminal Law")
+                ComboBox4.Items.Add("DST500 - A History of Madness")
 
 
                 ElseIf (Chooseterm.term = "winter") Then
@@ -118,8 +131,8 @@
 
                     ComboBox1.Items.Add("CPS590 - Introduction to Operating Systems")
 
-                    ComboBox3.Items.Add("CRM200 - Criminal Law")
-                    ComboBox3.Items.Add("DST500 - A History of Madness")
+                ComboBox4.Items.Add("CRM200 - Criminal Law")
+                ComboBox4.Items.Add("DST500 - A History of Madness")
                 End If
 
             End If

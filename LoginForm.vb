@@ -9,28 +9,21 @@
 
     Public Shared loggedInName As String
 
-    Private Sub NameLabel_Click(sender As Object, e As EventArgs) Handles NameLabel.Click
-
-    End Sub
-
     Private Sub LoginButton_Click(sender As Object, e As EventArgs) Handles LoginButton.Click
         If userName1 = NameTextBox.Text And password1 = PasswordTextBox.Text Then
             loggedInName = userName1
-            showHomePage()
+           showHomePage() 
 
         ElseIf userName2 = NameTextBox.Text And password2 = PasswordTextBox.Text Then
             loggedInName = userName2
-            showHomePage()
+            Dim homePage As New HomeForm
+             showHomePage() 
         Else
             showHomePage()
         End If
     End Sub
 
-    Sub showHomePage()
-        Dim homePage As New HomeForm
-        homePage.Show()
-        Me.Hide()
-    End Sub
+ 
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
@@ -54,6 +47,41 @@
 
     Private Sub PasswordTextBox_TextChanged(sender As Object, e As EventArgs) Handles PasswordTextBox.TextChanged
 
+    End Sub
+
+
+    Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        NameLabel.Hide()
+        LoginButton.Hide()
+        NameTextBox.Hide()
+        PasswordLabel.Hide()
+        PasswordTextBox.Hide()
+
+        Button1.Text = "Log in as first year student Bob Jones"
+        Button2.Text = "Log in as second year student Alex Green"
+    End Sub
+
+    ' Log in as Bob Jones
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        loggedInName = "bob.jones"
+        showHomePage()
+        Chooseterm.fys = True
+        Chooseterm.sys = False
+    End Sub
+
+    ' Log in as Alex Green
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        loggedInName = "alex.green"
+        showHomePage()
+        Chooseterm.fys = False
+        Chooseterm.sys = True
+    End Sub
+
+    Sub showHomePage()
+        Dim homePage As New HomeForm
+        homePage.Show()
+        Me.Hide()
     End Sub
 
 

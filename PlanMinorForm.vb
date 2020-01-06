@@ -60,7 +60,13 @@
     Private Sub ChooseMinorButton_Click(sender As Object, e As EventArgs) Handles ChooseMinorButton.Click
         ViewMajorForm.minor = MinorComboBox.Text
         Me.MinorLabel.Text = ViewMajorForm.minor
-        classoffered.minor = True
+
+        If (Chooseterm.fys) Then
+            classoffered.fminor = True
+        ElseIf (Chooseterm.sys) Then
+            classoffered.sminor = True
+        End If
+
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
@@ -68,5 +74,11 @@
         Me.Hide()
         home.Show()
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim homeForm As New HomeForm()
+        Me.Hide()
+        homeForm.Show()
     End Sub
 End Class
